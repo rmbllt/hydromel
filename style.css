@@ -36,30 +36,6 @@
   justify-content: center;
 }
 
-.card {
-  padding: 60px;
-}
-
-.string-card {
-  padding: 40px;
-}
-
-.icon {
-  height: 70px;
-  width: auto;
-  margin: 30px;
-}
-
-#honeyjar {
-  height: 110px;
-  width: auto;
-  margin: 0px 30px 30px 30px;
-}
-
-.input {
-  color: black;
-}
-
 #footer {
   position: relative;
   display: flex;
@@ -75,15 +51,34 @@ a:hover {
   text-decoration: none;
 }
 
-.block {
-  flex: 1;
-  text-align: right;
+.background-section {
+  position: relative;
+  background-size: cover !important;
+  height: 50vh;
+}
+
+.content-section {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 30vh;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.plain-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 
+
+
 /* ---------- SCROLL ARROW --------------- */
-
-
 
 .arrow {
   padding: 20px;
