@@ -1,7 +1,7 @@
 .banner {
   color: white;
   background-size: cover !important;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +54,8 @@ a:hover {
 .background-section {
   position: relative;
   background-size: cover !important;
-  height: 50vh;
+  background-position: bottom right;
+  height: 80vh;
 }
 
 .content-section {
