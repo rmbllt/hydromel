@@ -1,7 +1,7 @@
 .banner {
   color: white;
   background-size: cover !important;
-  height: 100vh;
+  height: 99vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,6 +70,13 @@ a:hover {
 }
 
 .plain-container {
+  margin: 20px 50px;
+}
+
+
+.iconstructure {
+  background-color: #8AADF7;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,6 +85,17 @@ a:hover {
 
 #map-container {
   margin: 30px 120px;
+}
+
+.iconcard {
+  margin: 40px;
+  color: white;
+  flex: 0 0 400px;
+}
+
+.icon {
+  margin: 20px;
+  width: 85px;
 }
 
 #map {
