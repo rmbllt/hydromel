@@ -1,3 +1,9 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
 .banner {
   color: white;
   background-size: cover !important;
@@ -62,11 +68,13 @@ a:hover {
   position: absolute;
   bottom: 10px;
   left: 10px;
-  width: 30vh;
+  width: 40vh;
   background-color: white;
   display: inline-block;
   text-align: center;
   border-radius: 5px;
+  margin:10vh;
+  padding: 20px;
 }
 
 .plain-container {
@@ -86,12 +94,18 @@ a:hover {
 .iconcard {
   margin: 40px;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .icon {
   margin: 0px 20px 20px 20px;
   width: 130px;
+}
+
+.undericons {
+  padding: 30px;
+  color: white;
+  font-size: 20px
 }
 
 #map {
