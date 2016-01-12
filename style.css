@@ -70,14 +70,8 @@ a:hover {
 }
 
 .plain-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  margin: 20px 50px;
 }
-
-
-
 
 /* ---------- SCROLL ARROW --------------- */
 
