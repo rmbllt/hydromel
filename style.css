@@ -83,6 +83,10 @@ a:hover {
   text-align: center;
 }
 
+#map-container {
+  margin: 30px 120px;
+}
+
 .iconcard {
   margin: 40px;
   color: white;
@@ -94,7 +98,11 @@ a:hover {
   width: 85px;
 }
 
-
+#map {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+}
 
 /* ---------- SCROLL ARROW --------------- */
 
