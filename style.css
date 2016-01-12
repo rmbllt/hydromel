@@ -76,8 +76,15 @@ a:hover {
   text-align: center;
 }
 
+#map-container {
+  margin: 30px 120px;
+}
 
-
+#map {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+}
 
 /* ---------- SCROLL ARROW --------------- */
 
