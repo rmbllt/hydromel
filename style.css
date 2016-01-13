@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .banner {
   color: white;
   background-size: cover !important;
@@ -102,11 +106,11 @@ a:hover {
   font-size: 20px
 }
 
-/*#map {
+#map {
   display: flex;
   height: 60vh;
   width: 100%;
-}*/
+}
 
 /* ---------- SCROLL ARROW --------------- */
 
